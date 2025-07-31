@@ -1,0 +1,35 @@
+{
+  "games": {},
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "",
+    "active_projects": 0,
+    "completed_projects": 0
+  },
+  "categories": {
+    "by_genre": {},
+    "by_platform": {},
+    "by_status": {},
+    "by_complexity": {}
+  },
+  "schema": {
+    "game_entry": {
+      "id": "string",
+      "name": "string",
+      "status": "brainstorming|designing|planning|ready|in_development|completed",
+      "genre": "string",
+      "platform": "string[]",
+      "complexity": "1-5",
+      "engine": "Unity|GameMaker Studio 2",
+      "created_date": "ISO string",
+      "last_modified": "ISO string",
+      "folder_path": "string",
+      "description": "string",
+      "market_opportunity": "string",
+      "development_timeline": "string",
+      "team_size": "solo|small|medium",
+      "tags": "string[]",
+      "related_games": "string[]"
+    }
+  }
+}
