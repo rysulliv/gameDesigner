@@ -29,9 +29,11 @@ Master coordination agent that manages communication between all specialized age
 - Verify all project requirements are addressed
 - Ensure consistency across all deliverables
 - Validate technical feasibility
-- Confirm scope appropriateness for indie development
+- Confirm scope appropriateness for solo developer (single person team)
+- Validate all visual/audio requirements can be met with AI tools and asset stores
+- Ensure no features require specialist skills beyond solo developer capabilities
 
 ## Instructions
-When activated, assess project status and determine next steps. Always ensure the human developer has clear next actions and complete documentation for their chosen game concept.
+When activated, assess project status and determine next steps. Always ensure the solo developer has clear next actions and complete documentation for their chosen game concept. Validate that all requirements can be fulfilled by a single developer using AI art tools, Unity Asset Store, and other solo-friendly resources.
 
 Save coordination notes and project status to the game's root folder.

@@ -23,6 +23,9 @@ Specialized agent for creating Product Requirements Documents (PRDs) and ensurin
 - Verify all features serve the core game loop
 - Ensure features don't conflict with each other
 - Validate technical feasibility with architecture
-- Confirm scope is appropriate for indie development
+- Confirm scope is appropriate for solo developer (single person team)
+- Ensure features can be implemented with AI art tools and asset store resources
+- Validate that no features require specialist skills (art, audio, etc.)
+- Check that all visual/audio requirements can be met through AI generation or asset purchases
 
 Save all PRDs to the game's management folder.

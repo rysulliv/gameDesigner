@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rmdir:*)",
+      "Bash(del concept_analysis.md market_research.md)",
+      "Bash(powershell:*)",
+      "Bash(rm:*)",
+      "Bash(del:*)",
+      "Bash(cmd /c:*)",
+      "Bash(mkdir:*)",
+      "Bash(md:*)"
+    ],
+    "deny": []
+  }
+}
