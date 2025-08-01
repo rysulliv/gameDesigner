@@ -1,29 +1,41 @@
-# Complete Game Design Process Workflow
+# Collaborative Game Design Process Workflow
 
-This workflow coordinates all agents to take a game from initial concept to development-ready specifications.
+This workflow coordinates specialized agent partners who work WITH developers through iterative conversations to build games collaboratively.
 
-## Phase 1: Concept Generation
-**Agent**: Brainstormer
-**Input**: Market research request or refinement of existing concept
-**Output**: 5-10 game concepts with market analysis
-**Duration**: 1-2 hours research + generation
+## Phase 1: Concept Exploration
+**Agent Partner**: Brainstormer
+**Collaborative Goal**: Explore market opportunities and refine game concepts together
+**Duration**: Multiple conversations until concept is refined
 
-### Activation Command
+### Conversation Approach
+The Brainstormer Agent will:
+- Ask about your gaming interests and development goals
+- Share market trends and opportunities for discussion
+- Suggest multiple concept directions based on your interests
+- Help refine ideas through iterative dialogue
+- Question assumptions to strengthen concepts
+
+### Activation Approach
 ```
-Use the Task tool with subagent_type "general-purpose" and this prompt:
-"You are the Game Brainstormer Agent. [Read the brainstormer.md file for full instructions]. Research current Steam trends, mobile game hits, and emerging gaming technologies. Generate 5-10 unique game concepts that are commercially viable for indie developers. Save your research and concepts to games/[concept-name]/01_concept/ folder."
+"You are the Game Brainstormer Agent. Read the brainstormer.md file for full instructions. Start a collaborative conversation with the developer to explore game concepts. Ask about their interests, share market insights, and work together to refine ideas through discussion."
 ```
 
-## Phase 2: Concept Development
-**Agent**: Game Designer
-**Input**: Selected concept from Phase 1
-**Output**: Complete game design document
-**Duration**: 2-4 hours design work
+## Phase 2: Game Design Collaboration
+**Agent Partner**: Game Designer
+**Collaborative Goal**: Work together to build comprehensive game design through dialogue
+**Duration**: Multiple conversations exploring mechanics, loops, and systems
 
-### Activation Command
+### Conversation Approach
+The Game Designer Agent will:
+- Ask questions about your vision and player experience goals
+- Present multiple design approaches for each system
+- Explore mechanics options and their implications
+- Help identify potential design challenges early
+- Iterate on ideas based on your feedback
+
+### Activation Approach
 ```
-Use the Task tool with subagent_type "general-purpose" and this prompt:
-"You are the Game Designer Agent. [Read the game_designer.md file for full instructions]. Take the selected game concept and develop it into a comprehensive game design including core loops, mechanics, progression, and technical requirements. Save your design work to games/[game-name]/02_design/ folder."
+"You are the Game Designer Agent. Read the game_designer.md file for full instructions. Start a collaborative conversation with the developer about their game concept. Ask questions about their vision, explore mechanics options together, and help refine the design through iterative discussion."
 ```
 
 ## Phase 3: Technical Analysis
@@ -100,13 +112,25 @@ Use the Task tool with subagent_type "general-purpose" and this prompt:
 **Human Decisions Required**: Concept selection, design approval, technical preferences
 **Output**: Complete development-ready game specification
 
-## Usage Instructions
+## Usage Instructions - HUMAN-GUIDED WORKFLOW
+
+⚠️ **IMPORTANT**: Execute ONE phase at a time with human review and approval between each step.
 
 1. **Start New Game**: Begin with Phase 1 (Brainstormer Agent)
 2. **Select Concept**: Review generated concepts and choose one to develop
-3. **Sequential Execution**: Run phases 2-7 in order
-4. **Review Points**: Human review recommended after phases 2, 3, and 6
+3. **Step-by-Step Execution**: 
+   - Execute ONE phase only
+   - Wait for human review and feedback
+   - Make refinements based on feedback
+   - Get explicit approval before proceeding to next phase
+4. **Required Review Points**: Human review and approval required after EVERY phase
 5. **Iteration**: Return to earlier phases if major changes are needed
+
+### Agent Activation Protocol
+- Agents should ONLY be activated when explicitly requested by the human
+- No automatic progression to next phase
+- Each agent waits for specific activation command
+- Human maintains control over workflow progression
 
 ## File Organization
 

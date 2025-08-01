@@ -4,21 +4,21 @@ A comprehensive multi-agent system for indie game development, from concept brai
 
 ## Overview
 
-This system uses specialized AI agents to take game concepts through a complete development planning process, producing detailed specifications that a solo indie developer can use to build successful games.
+This system uses specialized AI agent partners who work collaboratively WITH developers through iterative conversations to build game concepts into development-ready specifications.
 
 ## System Architecture
 
-### Specialized Agents (10 total)
-1. **Brainstormer** - Generates game concepts based on market trends
-2. **Game Designer** - Develops concepts into complete game designs
-3. **Tech Analyzer** - Recommends Unity vs GameMaker Studio 2
-4. **Client Architect** - Designs client-side game architecture
-5. **Server Architect** - Designs server-side architecture (if needed)
-6. **Tech Recommender** - Suggests supporting technologies and services
-7. **Documentation Generator** - Creates comprehensive development docs
-8. **Product Manager** - Writes PRDs and ensures feature cohesion
-9. **Project Manager** - Breaks down work into development stories
-10. **Orchestrator** - Coordinates all agents and manages workflow
+### Collaborative Agent Partners (10 total)
+1. **Brainstormer** - Explores market trends and refines concepts through discussion
+2. **Game Designer** - Collaborates on game design through iterative dialogue
+3. **Tech Analyzer** - Discusses technology choices and trade-offs
+4. **Client Architect** - Works together on client-side architecture decisions
+5. **Server Architect** - Collaborates on server-side architecture (if needed)
+6. **Tech Recommender** - Discusses supporting technologies and services
+7. **Documentation Generator** - Partners on comprehensive development docs
+8. **Product Manager** - Collaborates on requirements and feature definitions
+9. **Project Manager** - Works together on development planning and stories
+10. **Orchestrator** - Facilitates collaboration between all agent partners
 
 ### File Structure
 ```
@@ -80,36 +80,39 @@ games/[game-name]/
 └── project_status.md
 ```
 
-## Agent Activation
+## Agent Partner Activation
 
-To use any specialized agent, use Claude's Task tool with this pattern:
+To start collaborating with any specialized agent partner, use Claude's Task tool with this pattern:
 ```
-"You are the [Agent Name] Agent. Read the system/agents/[agent-file].md file for full instructions. [Specific task request]. Save your work to the appropriate game folder."
-```
-
-### Example Agent Activations
-
-**Game Designer Agent:**
-```
-"You are the Game Designer Agent. Read the system/agents/game_designer.md file for full instructions. Take the selected game concept and develop it into comprehensive game design including core loops, mechanics, and progression systems. Save your work to games/[game-name]/02_design/ folder."
+"You are the [Agent Name] Agent. Read the system/agents/[agent-file].md file for full instructions. Start a collaborative conversation with the developer about [topic]. Ask questions, explore options together, and work through [specific area] iteratively."
 ```
 
-**Tech Analyzer Agent:**
+### Example Collaborative Activations
+
+**Game Designer Partner:**
 ```
-"You are the Technology Analyzer Agent. Read the system/agents/tech_analyzer.md file for full instructions. Analyze the game design requirements and recommend Unity vs GameMaker Studio 2 with detailed reasoning. Save analysis to games/[game-name]/03_technical/ folder."
+"You are the Game Designer Agent. Read the system/agents/game_designer.md file for full instructions. Start a collaborative conversation with the developer about their game concept. Ask questions about their vision, explore mechanics options together, and help refine the design through iterative discussion."
 ```
 
-## Complete Workflow Process
+**Tech Analyzer Partner:**
+```
+"You are the Technology Analyzer Agent. Read the system/agents/tech_analyzer.md file for full instructions. Start a collaborative discussion about technology choices. Ask about the developer's technical requirements, experience level, and preferences, then explore Unity vs GameMaker Studio 2 options together."
+```
 
-1. **Concept Generation** (1-2 hours) - Brainstormer Agent
-2. **Game Design** (2-4 hours) - Game Designer Agent  
-3. **Technical Planning** (3-5 hours) - Tech Analyzer, Architects, Tech Recommender
-4. **Documentation** (1-2 hours) - Documentation Generator Agent
-5. **Product Management** (2-3 hours) - Product Manager Agent
-6. **Project Planning** (2-4 hours) - Project Manager Agent
-7. **Final Review** (1 hour) - Orchestrator Agent
+## Collaborative Workflow Process - CONVERSATION-DRIVEN
 
-**Total: 12-21 hours of agent work → Complete development-ready game specification**
+⚠️ **IMPORTANT**: Each phase involves multiple conversations and iterations with agent partners.
+
+1. **Concept Exploration** - Brainstormer Partner → **Iterative Conversations**
+2. **Game Design Collaboration** - Game Designer Partner → **Iterative Conversations**
+3. **Technical Discussions** - Tech Analyzer, Architects, Tech Recommender → **Iterative Conversations**
+4. **Documentation Partnership** - Documentation Generator Partner → **Iterative Conversations**
+5. **Requirements Collaboration** - Product Manager Partner → **Iterative Conversations**
+6. **Planning Partnership** - Project Manager Partner → **Iterative Conversations**
+7. **Final Coordination** - Orchestrator Partner → **Iterative Conversations**
+
+**Total: Ongoing collaborative conversations → Complete development-ready game specification**
+**Developer maintains control through active participation in all discussions**
 
 ## Key Features
 

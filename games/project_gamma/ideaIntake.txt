@@ -1,0 +1,142 @@
+🚀 Game Design Overview
+Working Title:
+Starbound Voyager (Placeholder)
+Feel free to refine later.
+
+🎯 Core Vision
+Genre:
+Top-down Space Roguelite / Exploration Survival
+
+Platform:
+PC (initially, Steam)
+
+Gameplay Overview:
+The player controls a pilot aboard an automated, mysterious alien vessel traveling rapidly through deep space, stopping briefly in various unexplored star systems. Players must use their limited time in each system to explore, gather resources, defend against threats, and ensure the survival and continued operation of their ship on its journey to an unknown destination.
+
+Primary Goal:
+Maintain ship integrity, fuel reserves, and crew safety across a series of increasingly challenging systems until the alien vessel reaches its mysterious final destination.
+
+Player Experience Goals:
+
+Tension and excitement balanced by strategic exploration.
+
+Constant pressure from limited time in each system.
+
+Sense of urgency balanced by meaningful strategic upgrades between runs.
+
+🌌 Game Setting & Narrative
+Visual & Aesthetic Style:
+
+Stylized Sci-fi: Vivid and atmospheric visuals, vibrant nebulae, and uniquely designed alien technology.
+
+Dark, unknown regions punctuated by bursts of color and detailed planetary bodies.
+
+Immersive, mysterious, and slightly unsettling visual atmosphere to highlight isolation in deep space.
+
+Narrative Framework:
+
+Lightly narrative-driven, with a central mystery: Who built this ship, why is it on this journey, and what awaits at the final destination?
+
+Story elements revealed incrementally through discovered logs, relics, anomalies, and special events in each system.
+
+Environmental storytelling encourages curiosity and repeated exploration.
+
+🎮 Core Gameplay Mechanics
+1. Loop & Progression Structure
+Roguelite Structure:
+
+Each "run" consists of a sequence of randomized star systems visited by the ship.
+
+Runs end either when the ship is destroyed or reaches its unknown final destination.
+
+Between runs, persistent resources and upgrades allow incremental improvement, increasing future run survivability.
+
+Timed Exploration:
+
+Every system visited has a randomly determined countdown timer.
+
+Players must quickly evaluate risks, manage their priorities (resource gathering, combat, exploration), and return to the ship before the timer expires.
+
+Failure to return in time results in escalating consequences (ship damage, resource loss, etc.).
+
+2. Pilot Gameplay (Active Exploration Phase)
+Top-down Ship Control (WASD Movement):
+
+Player actively pilots smaller exploration ships docked on the main vessel.
+
+Different exploration ships with varying strengths (speed, combat capability, cargo space, scanning ability, durability) can be unlocked and upgraded.
+
+Activities in Systems:
+
+Resource Collection: Asteroids, moons, derelict ships, anomalies.
+
+Combat Encounters: Hostile alien lifeforms, pirates, defense drones.
+
+Event Encounters: Distress signals, abandoned space stations, derelict ships, mysterious artifacts.
+
+3. Mothership Management (Jump Phase)
+After departing each system, players manage the mothership, allocating gathered resources to:
+
+Fuel (jump energy)
+
+Repairs (hull integrity, internal systems)
+
+Life Support (crew health, morale, food supplies)
+
+Ship Upgrades (new technologies, defenses, improved exploration ships)
+
+Unlockable Content (permanent improvements available on future runs)
+
+🔋 Resources & Management Mechanics
+Primary resources include:
+
+Fuel Crystals: Needed for jumps between star systems.
+
+Metals & Minerals: Repairs and upgrades.
+
+Organic Materials: Life support and crew management.
+
+Rare & Exotic Artifacts: Powerful, unique upgrades, or narrative-related unlocks.
+
+Resources carry over partially between runs, enabling strategic planning and incremental progression.
+
+🛡️ Combat & Defense Mechanics
+Active, WASD-controlled, tactical combat.
+
+Simple, responsive combat mechanics focusing on maneuvering, weapon selection, shield management.
+
+Diverse enemy types (pirates, alien creatures, autonomous drones) requiring tactical adaptation.
+
+Combat ships and weapon loadouts unlocked and customized between runs.
+
+🌠 Procedural Generation & Replayability
+Randomized star systems, each visit presenting unique layouts, resource distribution, enemy placements, and event possibilities.
+
+Discoverable unique anomalies and narrative-driven events adding to replay value.
+
+Difficulty progression naturally increasing through consecutive jumps.
+
+🎲 Roguelite Progression & Upgrades
+Permanent progression system between runs:
+
+Ship upgrades (defense, scanning range, cargo capacity).
+
+Pilot upgrades (maneuverability, combat skills, special abilities).
+
+Additional ships unlocked, providing varied gameplay and strategy.
+
+Gameplay meta-progression encourages repeated playthroughs, increasing power and survival chances.
+
+👾 Player Experience & Emotional Goals
+Tension & Urgency: Managing limited exploration time, resource scarcity, and ship condition.
+
+Discovery & Curiosity: Exploring unknown space and unveiling mysteries.
+
+Strategic Decision-Making: Balancing risks vs. rewards in every system.
+
+🖥️ Technical & Platform Considerations
+Single-player experience primarily for PC (Steam).
+
+Tight, responsive controls suitable for WASD + mouse gameplay.
+
+Clear UI for rapid strategic decisions and effective resource management.
